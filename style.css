@@ -1,0 +1,19 @@
+body {
+    background-color:grey;
+}
+
+.box {
+    background-color: black;
+    color: aliceblue;
+    min-height: 50 px;
+}
+
+h1 {
+    font-size: larger;
+}
+
+@media(min-width: 768px) {
+    .email-input {
+        width: 50%;
+    }
+}
