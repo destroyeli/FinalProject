@@ -1,19 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
-    background-color:grey;
+  background-color: #ffc107;
 }
 
 .box {
-    background-color: black;
-    color: aliceblue;
-    min-height: 50 px;
+  background-color: black;
+  color: aliceblue;
+  min-height: 50 px;
 }
 
 h1 {
-    font-size: larger;
+  font-size: larger;
 }
 
-@media(min-width: 768px) {
-    .email-input {
-        width: 50%;
-    }
+#FOOD img {
+  height: 300px;
+}
+
+#FOOD {
+  font-family: "Raleway";
+}
+
+.product {
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+.product_desc {
+  text-align: center;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+.Promotion {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Promotion img {
+  width: 890px;
+  height: 890px;
+  object-fit: contain;
+  padding-top: 3rem;
+  transition: opacity 0.5s ease;
+}
+
+.container_about {
+  padding-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .email-input {
+    width: 50%;
+  }
 }
